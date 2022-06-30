@@ -7,7 +7,7 @@ function args(content) {
 }
 
 function cmd(content) {
-    let argss = content.split(/ +/ig);
+    let argss = args(content);
     let command = argss.shift();
     return command;
 }
