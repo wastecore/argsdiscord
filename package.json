@@ -1,0 +1,22 @@
+{
+  "name": "argsdiscord",
+  "version": "1.0.0",
+  "description": "Gets Args And Cmd Name Of Message Content!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blurrys/argsdiscord.git"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "blurrys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blurrys/argsdiscord/issues"
+  },
+  "homepage": "https://github.com/blurrys/argsdiscord#readme"
+}
