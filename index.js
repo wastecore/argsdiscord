@@ -1,14 +1,17 @@
-/*
-    argsdiscord is a module that can get the args and cmd name of the message content (Discord.js, Eris, etc...)
-*/
+/* 
+    To Get Message Content Without The Command Name Use args(MESSAGE CONTENT)
+    To Get Command's Name Without The Arguments Use cmd(MESSAGE CONTENT)
+ */
 
 function args(content) {
-    return content.split(/ +/ig);
+    let args = content.split(/ +/ig);
+    args.shift();
+    return args.join(" ");
 }
 
 function cmd(content) {
-    let argss = args(content);
-    let command = argss.shift();
+    let args = content.split(/ +/ig);
+    let command = args.shift();
     return command;
 }
 
